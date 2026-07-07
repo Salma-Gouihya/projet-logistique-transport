@@ -1,0 +1,54 @@
+# Fichiers Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.so
+*.dll
+*.egg-info/
+dist/
+build/
+
+# Environnement Python
+venv/
+env/
+.env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Fichiers de données (trop gros)
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite
+data/raw/*.csv
+data/processed/*.csv
+
+# Fichiers de modèle
+*.pkl
+*.joblib
+*.h5
+*.pb
+models/*.pkl
+
+# Fichiers Power BI
+*.pbix
+dashboard/*.pbix
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers de log
+*.log
+*.tmp
+*.temp
